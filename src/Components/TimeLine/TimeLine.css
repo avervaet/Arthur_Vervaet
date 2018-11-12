@@ -1,0 +1,13 @@
+#TimeLine{
+	background-color: #f0f0f0;
+}
+
+.vertical-timeline{
+	margin:0 auto!important;
+}
+
+@media only screen and (min-width: 1170px){
+.vertical-timeline-element-date{
+	right: 136%!important;
+}
+}

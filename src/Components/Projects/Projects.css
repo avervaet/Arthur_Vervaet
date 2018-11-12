@@ -1,0 +1,41 @@
+#projects{
+	padding: 20px;
+	background-color: #343a40;
+}
+
+.card-img-top{
+	max-height: 400px;
+}
+.project-card{
+	box-shadow: -5px 10px 50px #212529;
+	max-width: 31%;
+	margin: 5px auto;
+	padding: 5px;
+}
+
+.project-gallery{
+	padding: 30px 10px;
+}
+
+.title-card{
+	box-shadow: -5px 10px 50px #212529;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.section-title{
+	margin: 0;
+}
+
+.carousel-control-prev, .carousel-control-next{
+	background-color: #00000040;
+	border-radius: 30px;
+	width: 50px;
+	height: 100px;
+	margin: auto 1%;
+}
+
+.carousel-inner{
+	margin: auto;
+	width: 90%;
+}
