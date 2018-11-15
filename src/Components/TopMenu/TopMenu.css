@@ -1,5 +1,4 @@
 .App-header{
-  height: 50px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -12,6 +11,27 @@
 }
 
 .top-title{
-  font-size: 22px;
-  color: white!important;
+  font-size: 1rem;
+  color: wheat!important;
+}
+
+.mobile_navbar{
+	display: none;
+}
+
+@media only screen and (max-width: 768px){
+.mobile_navbar{
+	display: block;
+}
+
+.laptop_navbar{
+	display: none;
+}
+
+.menu-icon{
+  position: fixed;
+  top:5px;
+  left:15px;
+  color: wheat;
+}
 }

@@ -12,17 +12,18 @@
 .landing-image{
   max-height: 500px;
   margin-bottom: 20px;
+  max-width: 80%;
 }
 
 .name{
-	width: 450px;
+	width: fit-content;
 	background-color: white;
 	margin: 0 auto;
 	box-shadow: -5px 10px 50px #212529;
 	margin-top: -15px;
 	color: #0062cc;
-	padding: 7px 0;
-	font-size: 24px;
+	padding: 7px 40px;
+	font-size: 1.5rem;
 }
 
 .quote{
@@ -30,5 +31,5 @@
 	max-width: 600px;
 	margin: 20px auto;
 	padding: 6px 0;
-	font-size: 20px;
+	font-size: 1rem;
 }

@@ -28,7 +28,7 @@
 }
 
 .carousel-control-prev, .carousel-control-next{
-	background-color: #00000040;
+	background-color: #ffffff90;
 	border-radius: 30px;
 	width: 50px;
 	height: 100px;
@@ -38,4 +38,30 @@
 .carousel-inner{
 	margin: auto;
 	width: 90%;
+}
+
+#carouselExampleControls .card-body{
+	padding-bottom: 0!important;
+}
+
+.mobile_project{
+	display: none;
+}
+@media only screen and (max-width: 768px){
+.mobile_project{
+	display: block;
+}
+
+.project-card{
+	max-width: 90%;
+	margin-bottom: 30px;
+}
+
+.laptop_project{
+	display: none;
+}
+
+.title-card{
+	margin-bottom: 30px;
+}
 }
