@@ -3,6 +3,7 @@ import React from 'react';
 import './TimeLine.css';
 import 'react-vertical-timeline-component/style.min.css';
 
+import { Translate } from "react-localize-redux";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import WorkIcon from './../../Components/Icons/WorkIcon'
 import StudyIcon from './../../Components/Icons/StudyIcon'
@@ -13,88 +14,88 @@ const timeline = () =>{
 	<VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="September 2018 - present"
+    date={<Translate id="timeline.cognitiveInge.date"/>}
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Junior AI engineer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Cognitive Matchbox, Paris</h4>
+    <h3 className="vertical-timeline-element-title"><Translate id="timeline.cognitiveInge.title"/></h3>
+    <h4 className="vertical-timeline-element-subtitle"><Translate id="timeline.cognitiveInge.place"/></h4>
     <p>
-      Machine Learning, Front-end developpement, API management
+    <Translate id="timeline.cognitiveInge.resume"/>
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="August 2018"
+    date={<Translate id="timeline.deeplearning.date"/>}
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<StudyIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Deep Learning Specialisation</h3>
-    <h4 className="vertical-timeline-element-subtitle">Coursera, Online</h4>
+    <h3 className="vertical-timeline-element-title"><Translate id="timeline.deeplearning.title"/></h3>
+    <h4 className="vertical-timeline-element-subtitle"><Translate id="timeline.deeplearning.place"/></h4>
     <p>
-      Advanced Deep Learning models and practices
+    <Translate id="timeline.deeplearning.resume"/>
     </p>
-    <a href='https://www.coursera.org/account/accomplishments/specialization/7G25CYF3GSRJ' className="btn btn-primary">Have a look</a>
+    <a href='https://www.coursera.org/account/accomplishments/specialization/7G25CYF3GSRJ' className="btn btn-primary"><Translate id="button.see"/></a>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="January 2018 - July 2018"
+    date={<Translate id="timeline.cognitiveIntern.date"/>}
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Intern AI engineer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Cognitive Matchbox, Paris</h4>
+    <h3 className="vertical-timeline-element-title"><Translate id="timeline.cognitiveIntern.title"/></h3>
+    <h4 className="vertical-timeline-element-subtitle"><Translate id="timeline.cognitiveIntern.place"/></h4>
     <p>
-      Machine Learning, Front-end developpement, API management
+      <Translate id="timeline.cognitiveIntern.resume"/>
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date=" December 2017"
+    date={<Translate id="timeline.machineLearning.date"/>}
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<StudyIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Machine Learning Certification</h3>
-    <h4 className="vertical-timeline-element-subtitle">Coursera, Online</h4>
+    <h3 className="vertical-timeline-element-title"><Translate id="timeline.machineLearning.title"/></h3>
+    <h4 className="vertical-timeline-element-subtitle"><Translate id="timeline.machineLearning.place"/></h4>
     <p>
-      Machine Learning models and practices
+      <Translate id="timeline.machineLearning.resume"/>
     </p>
-   <a href='https://www.coursera.org/account/accomplishments/certificate/ALRWJDWSZYJ8' className="btn btn-primary">Have a look</a>
+   <a href='https://www.coursera.org/account/accomplishments/certificate/ALRWJDWSZYJ8' className="btn btn-primary"><Translate id="button.see">Have a look</Translate></a>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2008 - 2010"
+    date={<Translate id="timeline.repetto.date"/>}
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Intern web developper</h3>
-    <h4 className="vertical-timeline-element-subtitle">Repetto, Paris</h4>
+    <h3 className="vertical-timeline-element-title"><Translate id="timeline.repetto.title"/></h3>
+    <h4 className="vertical-timeline-element-subtitle"><Translate id="timeline.repetto.place"/></h4>
     <p>
-      Front-end developpement, Back-end developpement
+    <Translate id="timeline.repetto.resume"/>
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="2015 - 2018"
+    date={<Translate id="timeline.isep.date" />}
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<StudyIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Software engineer degree</h3>
-    <h4 className="vertical-timeline-element-subtitle">ISEP, Paris</h4>
+    <h3 className="vertical-timeline-element-title"><Translate id="timeline.isep.title" /></h3>
+    <h4 className="vertical-timeline-element-subtitle"><Translate id="timeline.isep.place" /></h4>
     <p>
-      Software architecture, web-developpement, management
+      <Translate id="timeline.isep.resume" />
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="November 2012"
+    date={<Translate id="timeline.prepa.date" />}
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<StudyIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Preparatory class in mathematics</h3>
-    <h4 className="vertical-timeline-element-subtitle">JB de la salle, Clermont-ferrand</h4>
+    <h3 className="vertical-timeline-element-title"><Translate id="timeline.prepa.title" /></h3>
+    <h4 className="vertical-timeline-element-subtitle"><Translate id="timeline.prepa.place" /></h4>
     <p>
-      Advance Mathematics and physics
+      <Translate id="timeline.prepa.resume" />
     </p>
   </VerticalTimelineElement>
 </VerticalTimeline>

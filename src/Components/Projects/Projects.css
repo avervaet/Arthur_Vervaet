@@ -24,7 +24,10 @@
 }
 
 .section-title{
-	margin: 0;
+	margin: 20px 0 0 0;
+	color: wheat;
+	font-family: 'Indie Flower', cursive;
+	font-weight: 900;
 }
 
 .carousel-control-prev, .carousel-control-next{

@@ -1,0 +1,12 @@
+.selector{
+	position: fixed;
+	list-style-type: none;
+	top:31px;
+	right: 5%;
+}
+
+.lang-icon{
+	width: 100%;
+	max-width: 30px;
+	border-radius: 5px;
+}

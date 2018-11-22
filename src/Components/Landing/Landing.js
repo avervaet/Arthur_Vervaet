@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import './Landing.css'
+import './Landing.css';
+import { Translate } from "react-localize-redux";
+import { withLocalize } from "react-localize-redux";
 
 class Landing extends Component {
   render() {
@@ -9,7 +11,7 @@ class Landing extends Component {
             <div className="landing-card">
                 <img className="landing-image" src={window.location.origin + '/Ressource/img/profile_picture.png'} alt="Arthur Vervaet"/>
                 <h1 className="name"><span>Arthur</span> VERVAET</h1>
-                <h2 className="quote">A place to learn more about myself and my projects</h2>
+                <h2 className="quote"><Translate id="landing.sentence"/></h2>
             </div>
           </div>
         </section>
@@ -17,4 +19,4 @@ class Landing extends Component {
       }
     }
 
-export default Landing;
+export default withLocalize(Landing);

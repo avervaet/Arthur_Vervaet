@@ -1,16 +1,24 @@
 import React, { Component } from 'react';
 import './TopMenu.css'
+import { Translate } from "react-localize-redux";
+import { withLocalize } from "react-localize-redux";
+import LanguageSwapper from './../LangageSwapper/LangageSwapper';
+import globalTranslations from "./../../translations/global.json";
 
 class Navbar extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     
     this.state = {
       showMenu: false,
+      showLang: false,
     }
 
     this.showMenu = this.showMenu.bind(this);
-    this.closeMenu = this.closeMenu.bind(this);
+    this.closeMenu = this.closeMenu.bind(this); 
+    this.showLang = this.showLang.bind(this);
+    this.closeLang = this.closeLang.bind(this);
+    this.props.addTranslation(globalTranslations);
   }
 
   showMenu(event) {
@@ -27,19 +35,46 @@ class Navbar extends Component {
     });
   }
 
+   showLang(event) {
+    event.preventDefault();
+    
+    this.setState({ showLang: true }, () => {
+      document.addEventListener('click', this.closeLang);
+    });
+  }
+
+  closeLang() {
+    this.setState({ showLang: false }, () => {
+      document.removeEventListener('click', this.closeLang);
+    });
+  }
+
 	render() {
 		return(
 			<div>
+			{
+			this.props.activeLanguage === undefined ?(null) :(
+	        		<span className="menu-lang" onClick={this.showLang}>
+	        <img className="lang-icon" src={window.location.origin + '/Ressource/img/' + this.props.activeLanguage.code+'.svg'} alt="activeLang"/>
+	        </span>)	
+			}
+	        {
+	        	this.state.showLang ?(
+	        		<LanguageSwapper />
+	        		)
+	        	:(null)
+	        }
+				
 				<div className="laptop_navbar">
 					<ul className="nav justify-content-center"> 
 						<li className="nav-item top-div">	
-							<a className= "nav-link top-title" href="#projects"><b>PROJECTS</b></a>
+							<a className= "nav-link top-title" href="#projects"><b><Translate id="navbar.projects"/></b></a>
 				   		</li>
 				   		<li className="nav-item top-div">
-							<a className= "nav-link top-title" href="#AboutMe"><b>ABOUT ME</b></a>
+							<a className= "nav-link top-title" href="#AboutMe"><b><Translate id="navbar.aboutMe"/></b></a>
 				   		</li>
 				   		<li className="nav-item top-div">
-							<a className= "nav-link top-title" href="#contact"><b>CONTACT</b></a>
+							<a className= "nav-link top-title" href="#contact"><b><Translate id="navbar.contact"/></b></a>
 				   		</li>
 					</ul>
 				</div>
@@ -48,7 +83,7 @@ class Navbar extends Component {
 						<div>
 						<li className="nav-item top-div">
 							<i className="fa fa-th-list fa-2x menu-icon" onClick={this.showMenu}></i>	
-							<a className= "nav-link top-title" href="#projects"><b>PROJECTS</b></a>
+							<a className= "nav-link top-title" href="#projects"><b><Translate id="navbar.contact"/></b></a>
 				   		</li>
 				   		</div>
 				   		 {
@@ -56,10 +91,10 @@ class Navbar extends Component {
 				            ? (
 				           <div>
 					   		<li className="nav-item top-div second-item">
-								<a className= "nav-link top-title" href="#AboutMe"><b>ABOUT ME</b></a>
+								<a className= "nav-link top-title" href="#AboutMe"><b><Translate id="navbar.aboutMe"/></b></a>
 					   		</li>
 					   		<li className="nav-item top-div second-item">
-								<a className= "nav-link top-title" href="#contact"><b>CONTACT</b></a>
+								<a className= "nav-link top-title" href="#contact"><b><Translate id="navbar.contact"/></b></a>
 					   		</li>
 				   		</div>
 				   		    )
@@ -74,4 +109,4 @@ class Navbar extends Component {
 	}
 }
 
-export default Navbar;
+export default withLocalize(Navbar);

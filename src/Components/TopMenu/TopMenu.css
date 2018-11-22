@@ -13,10 +13,17 @@
 .top-title{
   font-size: 1rem;
   color: wheat!important;
+  font-family: 'Indie Flower', cursive;
 }
 
 .mobile_navbar{
 	display: none;
+}
+
+.menu-lang{
+  position: fixed;
+  top: 5px;
+  right: 5%;
 }
 
 @media only screen and (max-width: 768px){
