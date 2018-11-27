@@ -71,7 +71,7 @@ class Navbar extends Component {
 							<a className= "nav-link top-title" href="#projects"><b><Translate id="navbar.projects"/></b></a>
 				   		</li>
 				   		<li className="nav-item top-div">
-							<a className= "nav-link top-title" href="#AboutMe"><b><Translate id="navbar.aboutMe"/></b></a>
+							<a className= "nav-link top-title" href="#TimeLine"><b><Translate id="navbar.aboutMe"/></b></a>
 				   		</li>
 				   		<li className="nav-item top-div">
 							<a className= "nav-link top-title" href="#contact"><b><Translate id="navbar.contact"/></b></a>
@@ -91,7 +91,7 @@ class Navbar extends Component {
 				            ? (
 				           <div>
 					   		<li className="nav-item top-div second-item">
-								<a className= "nav-link top-title" href="#AboutMe"><b><Translate id="navbar.aboutMe"/></b></a>
+								<a className= "nav-link top-title" href="#TimeLine"><b><Translate id="navbar.aboutMe"/></b></a>
 					   		</li>
 					   		<li className="nav-item top-div second-item">
 								<a className= "nav-link top-title" href="#contact"><b><Translate id="navbar.contact"/></b></a>

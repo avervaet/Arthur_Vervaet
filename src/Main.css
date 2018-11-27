@@ -6,6 +6,7 @@ a, a:hover, a:visited, a:link, a:active
 
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .blue{
