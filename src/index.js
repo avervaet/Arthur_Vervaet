@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {render} from 'react-snapshot';
 import './index.css';
 import Main from './Main';
 import registerServiceWorker from './registerServiceWorker';
@@ -15,5 +15,5 @@ const App = props => (
   </LocalizeProvider>
 );
 
-ReactDOM.render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
 registerServiceWorker();

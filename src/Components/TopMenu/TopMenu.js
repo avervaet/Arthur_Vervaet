@@ -55,7 +55,7 @@ class Navbar extends Component {
 			{
 			this.props.activeLanguage === undefined ?(null) :(
 	        		<span className="menu-lang" onClick={this.showLang}>
-	        <img className="lang-icon" src={window.location.origin + '/Ressource/img/' + this.props.activeLanguage.code+'.svg'} alt="activeLang"/>
+	        <img className="lang-icon" src={window.location.origin + '/Ressource/img/' + this.props.activeLanguage.code+'.webp'} alt="activeLang"/>
 	        </span>)	
 			}
 	        {

@@ -10,7 +10,7 @@ const AboutMe = () =>{
 				</div>
 			</div>
 			<div className="about-card">
-				<img className="about-image" src={window.location.origin + '/Ressource/img/profile_picture.png'} />
+				<img className="about-image" src='/Ressource/img/profile_picture.webp' />
 				<div className="about-section">
 					<h4>What i'm doing now? </h4>
 						<p className="about-text"><b>Currently i'm working as AI engineer for Cognitive Matchbox a Start up developping matching solutions for hiring process.
@@ -29,7 +29,7 @@ const AboutMe = () =>{
 								 
 					</b></p>
 				</div>
-				<img className="about-image" src={window.location.origin + '/Ressource/img/bouldering.jpg'} />
+				<img className="about-image" src='/Ressource/img/bouldering.webp' />
 			</div>
 		</div>
 		);
