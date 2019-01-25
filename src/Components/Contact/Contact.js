@@ -9,7 +9,7 @@ const Contact = () =>{
 			<h3 className="section-title"><Translate id="contact.title"/></h3>
 			<div className="media-wrapper">
 				<div className="card media-card">
-					<h4 className="media-title"><img className="media-logo" src='/Ressource/img/github.webp' alt="GitHub" /><Translate id="contact.github"/></h4>
+					<h4 className="media-title"><img className="media-logo" src='/Ressource/img/github.webp' alt="GitHub" /><Translate id="contact.github">Fork me on GitHub</Translate></h4>
 				</div>
 				<div className="card media-card">
 					<h4 className="media-title"><img className="media-logo" src='/Ressource/img/linkedin.webp' alt="LinkedIn" /><Translate id="contact.linkedin"/></h4>
