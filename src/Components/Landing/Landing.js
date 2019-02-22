@@ -45,7 +45,7 @@ class Landing extends Component {
       verticalAlign: 'top',
       backgroundColor: '  #343a40',
       borderRadius: '10px',
-      border: '2px solid wheat',
+      border: '2px solid white',
       padding: '30px',
       marginTop: '25px',
       marginLeft: '2%',
@@ -54,7 +54,7 @@ class Landing extends Component {
     };
 
     const jobTitleStyle = {
-      color: 'wheat',
+      color: 'white',
       fontFamily: "'Indie Flower', cursive",
       marginBottom: '20px'
     }
@@ -65,7 +65,7 @@ class Landing extends Component {
 
     const sectionTileStyle = {
       textAlign: 'left',
-      color: 'wheat',
+      color: 'white',
       fontFamily: "'Indie Flower', cursive"
     };
 
@@ -84,7 +84,7 @@ class Landing extends Component {
     const verticalDividerStyle = {
       display: 'inline-block',
       width: '2px',
-      backgroundColor: 'wheat',
+      backgroundColor: 'white',
       margin: '0 10px',
       height: '40px'
     }
@@ -111,7 +111,7 @@ class Landing extends Component {
                   </div>
                 </div>
               <div style={infoSectionStyle}>
-                <h4 style={sectionTileStyle}><Translate id="landing.linkTitle">Software engineer</Translate></h4>
+                <h4 style={sectionTileStyle}><Translate id="landing.linkTitle" /></h4>
                 <div style={logoRowStyle}>
                   <a href="https://github.com/avervaet"><img style={logoStyle} src='/Ressource/img/github.png' alt="Github"/></a>
                   <div style={verticalDividerStyle}></div>
