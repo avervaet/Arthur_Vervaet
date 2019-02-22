@@ -86,18 +86,6 @@ const timeline = () =>{
       <Translate id="timeline.isep.resume" />
     </p>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date={<Translate id="timeline.prepa.date" />}
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<StudyIcon />}
-  >
-    <h3 className="vertical-timeline-element-title"><Translate id="timeline.prepa.title" /></h3>
-    <h4 className="vertical-timeline-element-subtitle"><Translate id="timeline.prepa.place" /></h4>
-    <p>
-      <Translate id="timeline.prepa.resume" />
-    </p>
-  </VerticalTimelineElement>
 </VerticalTimeline>
 </section>
 		);

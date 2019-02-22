@@ -5,7 +5,9 @@
     "contact": ["CONTACT", "ME CONTACTER"]
   },
   "landing": {
-  	"sentence": ["A place to learn more about myself and my projects", "Un endroit pour en apprendre plus sur moi et mes projets"]
+    "jobTitle": ["Software engineer", "Ingénieur logiciel"],
+    "stackTitle": ["My stack :", "Ma stack :"],
+    "linkTitle": ["Find me on : ", "Retrouvez moi sur :"]
   },
   "projects": {
   	"title": ["MY PROJECTS", "MES PROJETS"],

@@ -3,7 +3,6 @@ import './Main.css';
 import TopMenu from './Components/TopMenu/TopMenu';
 import Landing from './Components/Landing/Landing';
 import Projects from './Components/Projects/Projects';
-import Contact from './Components/Contact/Contact';
 import TimeLine from './Components/TimeLine/TimeLine';
 import { renderToStaticMarkup } from "react-dom/server";
 import { withLocalize } from "react-localize-redux";
@@ -33,7 +32,6 @@ class Main extends Component {
             <Landing />
             <Projects />
             <TimeLine />
-            <Contact />
         </div>
     );
   }
