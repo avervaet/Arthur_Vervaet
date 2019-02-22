@@ -1,93 +1,94 @@
 {
   "navbar": {
-    "projects": ["PROJECTS", "PROJETS"],
-    "aboutMe": ["ABOUT ME", "A PROPOS"],
-    "contact": ["CONTACT", "ME CONTACTER"]
+    "projects": ["PROJECTS", "PROJETS", "PROYECTO"],
+    "aboutMe": ["ABOUT ME", "A PROPOS", "AL PROPUESTO"],
+    "contact": ["CONTACT", "ME CONTACTER", "CONTACTARME"]
   },
   "landing": {
-    "jobTitle": ["Software engineer", "Ingénieur logiciel"],
-    "stackTitle": ["My stack :", "Ma stack :"],
-    "linkTitle": ["Find me on : ", "Retrouvez moi sur :"]
+    "jobTitle": ["Software engineer", "Ingénieur logiciel", "ingeniero de software"],
+    "stackTitle": ["My stack :", "Ma stack :", "Mi stack"],
+    "linkTitle": ["Find me on : ", "Retrouvez moi sur :", "Conosca me en :"]
   },
   "projects": {
-  	"title": ["MY PROJECTS", "MES PROJETS"],
+  	"title": ["MY PROJECTS", "MES PROJETS", "MIS PROYECTOS"],
   	"website":{ 
-  		"title": ["THIS WEBSITE", "CE SITE"],
-  		"resume": ["An responsive website build with React and Bootstrap. It has no back-end because in fact there is no need of it.", "Un projet de site responsive crée à l'aide de React et Bootstrap, celui-ci n'a pas de back-end car il n'y en avait pas besoin."],
-  		"date": ["September 2018", "Septembre 2018"]
+  		"title": ["THIS WEBSITE", "CE SITE", "ESTA PAGINA WEB"],
+  		"resume": ["An responsive website build with React and Bootstrap. It has no back-end because in fact there is no need of it.", 
+        "Un projet de site responsive crée à l'aide de React et Bootstrap, celui-ci n'a pas de back-end car il n'y en avait pas besoin.",
+        "Un proyecto de pagina web elaborada gracias a React y Bootstrap, no tienes back-end porque no necessita."],
+  		"date": ["September 2018", "Septembre 2018", "Septiembre 2018"]
   	},
   	"gaudrophone":{
-  		"title": ["GAUDROPHONE", "GAUDROPHONE"],
-  		"resume": ["An app to create and play your dreams music instrument. Student project realised during my academic semester at University Laval (Quebec).", "Une application pour créer et jouer de son propre instrument de musique. Réalisé durant mon semestre a l'université Laval de Québec."],
-  		"date": ["September - November 2017", "Septembre - Novembre 2017"]		
+  		"title": ["GAUDROPHONE", "GAUDROPHONE", "GAUDROPHONE"],
+  		"resume": ["An app to create and play your dreams music instrument. Student project realised during my academic semester at University Laval (Quebec).",
+      "Une application pour créer et jouer de son propre instrument de musique. Réalisé durant mon semestre a l'université Laval de Québec.",
+      "Una applicacion para crear y tocar de su propio instrumento de musica. Realisado durante mi semestre en la universidad Laval de Quebec."],
+  		"date": ["September - November 2017", "Septembre - Novembre 2017", "Septiembre - Noviembre 2017"]		
   	},
   	"opossums":{
-  		"title": ["ISEP REACT", "ISEP REACT"],
-  		"resume": ["A website that will ease the communication between students and teachers. I was part of the Opossums group (that you can see in this picture) and together, we have design and created this app.", "Un site pour faciliter la communication entre étudiants et enseignants. Réalisé avec le groupe des Opossums, cette application nous a permis de gagner le concours de l'école."],
-  		"date": ["January - June 2017", "Janvier - Juin 2017"]
+  		"title": ["ISEP REACT", "ISEP REACT", "ISEP REACT"],
+  		"resume": ["A website that will ease the communication between students and teachers. I was part of the Opossums group (that you can see in this picture) and together, we have design and created this app.",
+       "Un site pour faciliter la communication entre étudiants et enseignants. Réalisé avec le groupe des Opossums, cette application nous a permis de gagner le concours de l'école.",
+        "Una pagina web para ayudar a la communicacion entre los estudiantes y los profesores"],
+  		"date": ["January - June 2017", "Janvier - Juin 2017", "Enero - Junio 2017"]
   	},
   	"subway":{
-  		"title": ["PARISIAN SUBWAY", "METRO PARISIEN"],
-  		"resume": ["Java program that creates a graph of the parisian subway, displays a simplified map of it  on screen and allows the user to check the shortest and longest path between two stations", "Un programme JAVA modélisant le réseau de métro parisien et permettant de trouver le plus court chemin pour un utilisateur."],
-  		"date": ["January 2017", "Janvier 2017"]
+  		"title": ["PARISIAN SUBWAY", "METRO PARISIEN", "METRO DE PARIS"],
+  		"resume": ["Java program that creates a graph of the parisian subway, displays a simplified map of it  on screen and allows the user to check the shortest and longest path between two stations", 
+      "Un programme JAVA modélisant le réseau de métro parisien et permettant de trouver le plus court chemin pour un utilisateur.",
+      "JAVA software representando la red del metropolitano de Paris y permitiendo encontrar el camino mas corto"],
+  		"date": ["January 2017", "Janvier 2017", "Enero 2017"]
   	},
   	"filler":{
-  		"title": ["FILLER GAME", "JEU DE GRILLE"],
-  		"resume": ["Filler game coded in Java. Can be played with up to 4 players, against human players or AIs. It is also possible to add obstacles, a fog of war and to create your own map.", "Jeux en JAVA, jouable jusqu'a 4 joueurs ou IA en même temps. Il esxiste également un mode éditeur permettant de créer sa grille en rajoutant des obstacles ou du brouillard."],
-  		"date": ["March - June 2016", "Mars - Juin 2016"]
+  		"title": ["FILLER GAME", "JEU DE GRILLE", "Juego de rejilla"],
+  		"resume": ["Filler game coded in Java. Can be played with up to 4 players, against human players or AIs. It is also possible to add obstacles, a fog of war and to create your own map.", 
+      "Jeux en JAVA, jouable jusqu'a 4 joueurs ou IA en même temps. Il existe également un mode éditeur permettant de créer sa grille en rajoutant des obstacles ou du brouillard.",
+      "Codigo en JAVA, jugable hasta quatro jugadores al mismo tiempo. Existe tambien un modo editor que permite crear su propia rejilla."],
+  		"date": ["March - June 2016", "Mars - Juin 2016", "Marso - Junio 2016"]
   	}
   },
   "timeline":{
     "cognitiveInge": {
-      "title": ["Junior AI engineer", "Ingénieur IA Junior"],
-      "place": ["Cognitive Matchbox, Paris", "Cognitive Matchbox, Paris"],
-      "resume": ["Machine Learning, Front-end developpement, API management", "Machine Learning, développement Front, création d'API"],
-      "date": ["September 2018 - present", "Septembre 2018 - Aujourd'hui"]
+      "title": ["Junior AI engineer", "Ingénieur IA Junior", "Ingeniero en IA"],
+      "place": ["Cognitive Matchbox, Paris", "Cognitive Matchbox, Paris", "Cognitive Matchbox, Paris"],
+      "resume": ["Machine Learning, Front-end developpement, API management", "Machine Learning, développement Front, création d'API", "Machine Learning, Python API"],
+      "date": ["September 2018 - present", "Septembre 2018 - Aujourd'hui", "Septiembre 2018 - hoy en dia"]
     },
     "deeplearning": {
-      "title": ["Deep Learning Specialisation", "Spécialisation en deep learning"],
-      "place": ["Coursera, Online", "Coursera, En ligne"],
-      "resume": ["Advanced Deep Learning models and practices", "Pratique avancée des modèles et bonnes pratiques en deep learning"],
-      "date": ["August 2018", "Août 2018"]
+      "title": ["Deep Learning Specialisation", "Spécialisation en deep learning", "Especialisacazion en deep learning"],
+      "place": ["Coursera, Online", "Coursera, En ligne", "Coursera, en linea"],
+      "resume": ["Advanced Deep Learning models and practices", 
+      "Pratique avancée des modèles et bonnes pratiques en deep learning",
+      "Modelisacion y buenas practicas en deep learning"
+      ],
+      "date": ["August 2018", "Août 2018", "Agosto 2018"]
     },
     "cognitiveIntern": {
-      "title": ["Intern AI engineer", "Stagiaire Ingénieur IA"],
-      "place": ["Cognitive Matchbox, Paris", "Cognitive Matchbox, Paris"],
-      "resume": ["Machine Learning, Front-end developpement, API management", "Machine Learning, développement Front, création d'API"],
-      "date": ["January 2018 - July 2018", "Janvier 2018 - Juillet 2018"]
+      "title": ["Intern AI engineer", "Stagiaire Ingénieur IA", "Aprendiz ingeniero en IA"],
+      "place": ["Cognitive Matchbox, Paris", "Cognitive Matchbox, Paris", "Cognitive Matchbox, Paris"],
+      "resume": ["Machine Learning, Front-end developpement, API management", "Machine Learning, développement Front, création d'API", "Machine Learning, Python API"],
+      "date": ["January 2018 - July 2018", "Janvier 2018 - Juillet 2018", "Enero 2018 - Julio 2018"]
     },
     "machineLearning": {
-      "title": ["Machine Learning Certification", "Certification en Machine Learning"],
-      "place": ["Coursera, Online", "Coursera, en ligne"],
-      "resume": ["Machine Learning models and practices", "Modèles et bonnes pratiques en Machine Learning"],
-      "date": ["December 2017", "Décembre 2017"]
+      "title": ["Machine Learning Certification", "Certification en Machine Learning", "Especialisacazion en Machine learning"],
+      "place": ["Coursera, Online", "Coursera, en ligne", "Coursera, en linea"],
+      "resume": ["Machine Learning models and practices", "Modèles et bonnes pratiques en Machine Learning", "Modelisacion y buenas practicas en deep learning"],
+      "date": ["December 2017", "Décembre 2017", "Diciembre 2017"]
     },
     "repetto": {
-      "title": ["Intern web developper", "Stagiaire web développeur"],
-      "place": ["Repetto, Paris", "Repetto, Paris"],
-      "resume": ["Full stack developpement", "Développement Full Stack"],
-      "date": ["2008 - 2010", "2008 - 2010"]
+      "title": ["Intern web developper", "Stagiaire web développeur", "Aprendiz desarollador de web"],
+      "place": ["Repetto, Paris", "Repetto, Paris", "Repetto, Paris"],
+      "resume": ["Full stack developpement", "Développement Full Stack", "Desarollador de web" ],
+      "date": ["2008 - 2010", "2008 - 2010", "2008 - 2010"]
     },
     "isep": {
-      "title": ["Software engineer degree", "Diplôme d'ingénieur logiciel"],
+      "title": ["Software engineer degree", "Diplôme d'ingénieur logiciel", "Diploma de ingeniero en software"],
       "place": ["ISEP, Paris", "ISEP, Paris"],
-      "resume": ["Software architecture, web-developpement, algorithmic", "Architecture logiciel, algorithmie"],
-      "date": ["2015 - 2018", "2015 - 2018"]
-    },
-    "prepa": {
-      "title": ["Preparatory class in mathematics", "Classe préparatoire en mathématiques"],
-      "place": ["JB de la salle, Clermont-ferrand", "JB de la salle, Clermont-ferrand"],
-      "resume": ["Advance Mathematics and physics", "Mathématiques et physique avancées"],
-      "date": ["November 2012", "Novembre 2012"]
+      "resume": ["Software architecture, web-developpement, algorithmic", "Architecture logiciel, algorithmie", "software arquitectura"],
+      "date": ["2015 - 2018", "2015 - 2018", "2015 - 2018"]
     }
   },
-  "contact":{
-    "title": ["CONTACT ME", "ME CONTACTER"],
-    "github": ["Fork me on GitHub", "Rejoignez moi sur GitHub"],
-    "linkedin": ["Join me on LinkedIn", "Rejoignez moi sur LinkedIn"],
-    "download": ["Download my CV", "Télécharger mon CV"]
-      },
   "button":{
-  	"see": ["Have a look", "Voir le projet"]
+  	"see": ["Have a look", "Voir le projet", "Ver el proyecto"]
   }
 }

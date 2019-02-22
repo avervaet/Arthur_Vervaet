@@ -39,6 +39,14 @@
   position: fixed;
   top:5px;
   left:15px;
-  color: wheat;
+  color: white;
+}
+
+.menu-container{
+  width: 100%;
+}
+
+.top-div{
+  margin: 0;
 }
 }

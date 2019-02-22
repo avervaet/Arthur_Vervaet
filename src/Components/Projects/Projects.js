@@ -52,7 +52,7 @@ class Projects extends Component{
 					    <div className="carousel-item">
 					      	<div className="row project-gallery"> 
 								<ProjectCard id="subway"
-								img="metro.webp" 
+								img="metro.png" 
 								title="PARISIAN SUBWAY"
 								text="Java program that creates a graph of the parisian subway, displays a simplified map of it  on screen and allows the user to check the shortest and longest path between two stations"
 								link="https://github.com/avervaet/Parisian_subway"

@@ -16,7 +16,8 @@ class Main extends Component {
     this.props.initialize({
       languages: [
         { code: "en", flag:"gb.svg" },
-        { code: "fr", flag:"fr.svg" }
+        { code: "fr", flag:"fr.svg" },
+        { code: "esp", flag: "esp.svg"}
       ],
       translation: globalTranslations,
       options: { renderToStaticMarkup }

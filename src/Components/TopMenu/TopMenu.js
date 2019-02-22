@@ -83,13 +83,13 @@ class Navbar extends Component {
 						<div>
 						<li className="nav-item top-div">
 							<i className="fa fa-th-list fa-2x menu-icon" onClick={this.showMenu}></i>	
-							<a className= "nav-link top-title" href="#projects"><b><Translate id="navbar.contact"/></b></a>
+							<a className= "nav-link top-title" href="#projects"><b><Translate id="navbar.projects"/></b></a>
 				   		</li>
 				   		</div>
 				   		 {
 				          this.state.showMenu
 				            ? (
-				           <div>
+				           <div className="menu-container">
 					   		<li className="nav-item top-div second-item">
 								<a className= "nav-link top-title" href="#TimeLine"><b><Translate id="navbar.aboutMe"/></b></a>
 					   		</li>
