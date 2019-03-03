@@ -1,19 +1,24 @@
 import React from 'react';
+import './index.css'
 import {render} from 'react-snapshot';
-import './index.css';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Blog from './Blog'
 import Main from './Main';
-import registerServiceWorker from './registerServiceWorker';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from './Components/Navbar/Navbar';
 import { LocalizeProvider } from "react-localize-redux";
 
-
-const App = props => (
-  <LocalizeProvider>
-    <Router>
-      <Route path="/" component={Main} />
-    </Router>
-  </LocalizeProvider>
+render(
+	<LocalizeProvider>
+		<BrowserRouter>
+			<div>
+				<header className="App-header">
+		            <Navbar />
+		        </header>
+				<Route exact path='/' component={Main} />
+				<Route path='/blog' component={Blog} />
+			</div>
+		</BrowserRouter>
+	</LocalizeProvider>
+	,
+	document.getElementById('root')
 );
-
-render(<App />, document.getElementById('root'));
-registerServiceWorker();

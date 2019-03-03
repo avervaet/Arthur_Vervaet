@@ -8,7 +8,7 @@ const LanguageToggle = ({ languages, activeLanguage, setActiveLanguage }) => (
 	    {languages.map(lang => (
 	      <li key={lang.code}>
 	        <span onClick={() => setActiveLanguage(lang.code)}>
-	        	<img className="lang-icon" src={'/Ressource/img/' + lang.code +'.svg'} alt={lang.code}/>
+	        	<img className="lang-icon" src={'/Ressource/img/lang/' + lang.code +'.svg'} alt={lang.code}/>
 	        </span>
 	      </li>
 	    ))}

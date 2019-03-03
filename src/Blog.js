@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-import Landing from './Components/Landing/Landing';
-import Projects from './Components/Projects/Projects';
-import TimeLine from './Components/TimeLine/TimeLine';
 import { renderToStaticMarkup } from "react-dom/server";
 import { withLocalize } from "react-localize-redux";
 import globalTranslations from "./translations/global.json";
-
-class Main extends Component {
+import BlogLanding from './Components/BlogLanding/BlogLanding'
+class Blog extends Component {
 
   constructor(props) {
     super(props);
@@ -24,12 +21,10 @@ class Main extends Component {
   render() {
     return (
         <div className="App">
-            <Landing />
-            <Projects />
-            <TimeLine />
+            <BlogLanding />
         </div>
     );
   }
 }
 
-export default withLocalize(Main);
+export default withLocalize(Blog);

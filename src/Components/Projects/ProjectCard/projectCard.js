@@ -5,7 +5,7 @@ const projectCard = (props) =>{
     return(
 		<div className="card col-md-4 project-card">
 			<a href={props.link}>
-			<img className="card-img-top" src={window.location.origin + '/Ressource/img/' + props.img} alt={props.img} />
+			<img className="card-img-top" src={window.location.origin + '/Ressource/img/projects/' + props.img} alt={props.img} />
 			<div className="card-body">
 			    <h5 className="blue"><Translate id={"projects." + props.id + ".title"}>{props.title}</Translate></h5>
 			    <hr className="separator" />

@@ -5,8 +5,8 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import { Translate } from "react-localize-redux";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import WorkIcon from './../../Components/Icons/WorkIcon'
-import StudyIcon from './../../Components/Icons/StudyIcon'
+import WorkIcon from './Icons/WorkIcon'
+import StudyIcon from './Icons/StudyIcon'
 
 const timeline = () =>{
 	return(

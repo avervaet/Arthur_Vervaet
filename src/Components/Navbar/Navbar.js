@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import './TopMenu.css'
+import './Navbar.css'
 import { Translate } from "react-localize-redux";
 import { withLocalize } from "react-localize-redux";
-import LanguageSwapper from './../LangageSwapper/LangageSwapper';
+import LanguageSwapper from './LangageSwapper/LangageSwapper';
 import globalTranslations from "./../../translations/global.json";
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
   constructor(props) {
@@ -55,7 +56,7 @@ class Navbar extends Component {
 			{
 			this.props.activeLanguage === undefined ?(null) :(
 	        		<span className="menu-lang" onClick={this.showLang}>
-	        <img className="lang-icon" src={window.location.origin + '/Ressource/img/' + this.props.activeLanguage.code+'.svg'} alt="activeLang"/>
+	        <img className="lang-icon" src={window.location.origin + '/Ressource/img/lang/' + this.props.activeLanguage.code+'.svg'} alt="activeLang"/>
 	        </span>)	
 			}
 	        {
@@ -68,13 +69,13 @@ class Navbar extends Component {
 				<div className="laptop_navbar">
 					<ul className="nav justify-content-center"> 
 						<li className="nav-item top-div">	
-							<a className= "nav-link top-title" href="#projects"><b><Translate id="navbar.projects"/></b></a>
+							<Link className= "nav-link top-title" to="/#projects"><b><Translate id="navbar.projects"/></b></Link>
 				   		</li>
 				   		<li className="nav-item top-div">
-							<a className= "nav-link top-title" href="#TimeLine"><b><Translate id="navbar.aboutMe"/></b></a>
+							<Link className= "nav-link top-title" to="/#TimeLine"><b><Translate id="navbar.aboutMe"/></b></Link>
 				   		</li>
 				   		<li className="nav-item top-div">
-							<a className= "nav-link top-title" href="#contact"><b><Translate id="navbar.contact"/></b></a>
+							<Link className= "nav-link top-title" to="/blog"><b><Translate id="navbar.blog"/></b></Link>
 				   		</li>
 					</ul>
 				</div>
@@ -83,7 +84,7 @@ class Navbar extends Component {
 						<div>
 						<li className="nav-item top-div">
 							<i className="fa fa-th-list fa-2x menu-icon" onClick={this.showMenu}></i>	
-							<a className= "nav-link top-title" href="#projects"><b><Translate id="navbar.projects"/></b></a>
+							<Link className= "nav-link top-title" to="/#projects"><b><Translate id="navbar.projects"/></b></Link>
 				   		</li>
 				   		</div>
 				   		 {
@@ -91,11 +92,11 @@ class Navbar extends Component {
 				            ? (
 				           <div className="menu-container">
 					   		<li className="nav-item top-div second-item">
-								<a className= "nav-link top-title" href="#TimeLine"><b><Translate id="navbar.aboutMe"/></b></a>
+								<Link className= "nav-link top-title" to="/#TimeLine"><b><Translate id="navbar.aboutMe"/></b></Link>
 					   		</li>
-					   		<li className="nav-item top-div second-item">
-								<a className= "nav-link top-title" href="#contact"><b><Translate id="navbar.contact"/></b></a>
-					   		</li>
+					   		<li className="nav-item top-div">
+								<Link className= "nav-link top-title" to="/blog"><b><Translate id="navbar.blog"/></b></Link>
+				   			</li>
 				   		</div>
 				   		    )
 			            : (

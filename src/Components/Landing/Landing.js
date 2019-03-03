@@ -100,22 +100,22 @@ class Landing extends Component {
               <div style={infoSectionStyle}>
                 <h4 style={sectionTileStyle}><Translate id="landing.stackTitle"/></h4>
                   <div style={logoRowStyle}>
-                    <img style={logoStyle} src='/Ressource/img/python.png' alt="Python"/>
-                    <img style={logoStyle} src='/Ressource/img/flask.png' alt="Flask"/>
+                    <img style={logoStyle} src='/Ressource/img/stack/python.png' alt="Python"/>
+                    <img style={logoStyle} src='/Ressource/img/stack/flask.png' alt="Flask"/>
                     <div style={verticalDividerStyle}></div>
-                    <img style={logoStyle} src='/Ressource/img/html5.png' alt="Html5"/>
-                    <img style={logoStyle} src='/Ressource/img/javascript.png' alt="Css3"/>
-                    <img style={logoStyle} src='/Ressource/img/css3.png' alt="Css3"/>
+                    <img style={logoStyle} src='/Ressource/img/stack/html5.png' alt="Html5"/>
+                    <img style={logoStyle} src='/Ressource/img/stack/javascript.png' alt="Css3"/>
+                    <img style={logoStyle} src='/Ressource/img/stack/css3.png' alt="Css3"/>
                     <div style={verticalDividerStyle}></div>
-                    <img style={logoStyle} src='/Ressource/img/react_logo.png' alt="React"/>
+                    <img style={logoStyle} src='/Ressource/img/stack/react_logo.png' alt="React"/>
                   </div>
                 </div>
               <div style={infoSectionStyle}>
                 <h4 style={sectionTileStyle}><Translate id="landing.linkTitle" /></h4>
                 <div style={logoRowStyle}>
-                  <a href="https://github.com/avervaet"><img style={logoStyle} src='/Ressource/img/github.png' alt="Github"/></a>
+                  <a href="https://github.com/avervaet"><img style={logoStyle} src='/Ressource/img/stack/github.png' alt="Github"/></a>
                   <div style={verticalDividerStyle}></div>
-                  <a href='https://www.linkedin.com/in/arthur-vervaet/'><img style={logoStyle} src='/Ressource/img/linkedin.jpg' alt="Linkedin"/></a> 
+                  <a href='https://www.linkedin.com/in/arthur-vervaet/'><img style={logoStyle} src='/Ressource/img/stack/linkedin.jpg' alt="Linkedin"/></a> 
                 </div>
               </div>
             </div>
