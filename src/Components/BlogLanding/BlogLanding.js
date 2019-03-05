@@ -24,16 +24,26 @@ class BlogLanding extends Component {
             	<Article title="Une intelligence artificielle éthique pour un recrutement éthique"
             			img="recrutement-ethique.png"/>
             </a>
-          	<Article title="Intelligence et apprentissage"
-                img="intelligence-apprentissage.png" />
-          	<Article title="Que voient les robots ?"
-                img="vision-robots.png" />
-          	<Article title="Le Machine Learning causera-t'il sa propre perte ?"
+            <a href="/blog/article/1">
+            	<Article title="Intelligence et apprentissage"
+                  img="intelligence-apprentissage.png" />
+            </a>
+            <a href="/blog/article/1">
+            	<Article title="Que voient les robots ?"
+                  img="vision-robots.png" />
+            </a>
+            <a href="/blog/article/1">
+          	   <Article title="Le Machine Learning causera-t'il sa propre perte ?"
                 img="machine-learning-perte.png" />
-          	<Article title="Quel rôle joue nos données"
-                img="role-donnee.png"/>
-          	<Article title="L'importance de lier éthique et recherche en IA" 
-                img="ethique-recherche-ia.png"/>
+            </a>
+            <a href="/blog/article/2">
+            	<Article title="Quel rôle joue nos données"
+                  img="role-donnee.png"/>
+            </a>
+            <a href="/blog/article/1">
+            	<Article title="L'importance de lier éthique et recherche en IA" 
+                  img="ethique-recherche-ia.png"/>
+            </a>
           </div>
         </div>
         );

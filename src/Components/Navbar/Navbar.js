@@ -5,10 +5,21 @@ import { withLocalize } from "react-localize-redux";
 import LanguageSwapper from './LangageSwapper/LangageSwapper';
 import globalTranslations from "./../../translations/global.json";
 import { Link } from 'react-router-dom';
+import { renderToStaticMarkup } from "react-dom/server";
 
 class Navbar extends Component {
+
   constructor(props) {
     super(props);
+
+    this.props.initialize({
+      languages: [
+        { code: "en", flag:"gb.svg"},
+        { code: "fr", flag:"fr.svg"}
+      ],
+      translation: globalTranslations,
+      options: { renderToStaticMarkup }
+    });
     
     this.state = {
       showMenu: false,
