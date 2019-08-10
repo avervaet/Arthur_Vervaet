@@ -8,7 +8,8 @@
   "landing": {
     "jobTitle": ["Software engineer", "Ingénieur logiciel"],
     "stackTitle": ["My stack :", "Ma stack :"],
-    "linkTitle": ["Find me on : ", "Retrouvez moi sur :"]
+    "linkTitle": ["Find me on :", "Retrouvez moi sur :"],
+    "resume": ["Get my resume:", "Télécharger mon CV:"]
   },
   "projects": {
   	"title": ["MY PROJECTS", "MES PROJETS"],

@@ -118,6 +118,14 @@ class Landing extends Component {
                   <a href='https://www.linkedin.com/in/arthur-vervaet/'><img style={logoStyle} src='/Ressource/img/stack/linkedin.jpg' alt="Linkedin"/></a> 
                 </div>
               </div>
+              <div style={infoSectionStyle}>
+                <h4 style={sectionTileStyle}><Translate id="landing.resume" /></h4>
+                <div style={logoRowStyle}>
+                <form method="get" action='/Ressource/file/arthur_vervaet_resume__copy.pdf'>
+                  <button class="btn" type="submit"><i class="fa fa-download"></i> Download</button>
+                </form>
+                </div>
+              </div>
             </div>
           </div>
         </section>
