@@ -80,13 +80,10 @@ class Navbar extends Component {
 				<div className="laptop_navbar">
 					<ul className="nav justify-content-center"> 
 						<li className="nav-item top-div">	
-							<Link className= "nav-link top-title" to="/#projects"><b><Translate id="navbar.projects"/></b></Link>
+							<Link className= "nav-link top-title" to="#projects"><b><Translate id="navbar.projects"/></b></Link>
 				   		</li>
 				   		<li className="nav-item top-div">
-							<Link className= "nav-link top-title" to="/#TimeLine"><b><Translate id="navbar.aboutMe"/></b></Link>
-				   		</li>
-				   		<li className="nav-item top-div">
-							<Link className= "nav-link top-title" to="/blog"><b><Translate id="navbar.blog"/></b></Link>
+							<Link className= "nav-link top-title" to="#TimeLine"><b><Translate id="navbar.aboutMe"/></b></Link>
 				   		</li>
 					</ul>
 				</div>
@@ -95,7 +92,7 @@ class Navbar extends Component {
 						<div>
 						<li className="nav-item top-div">
 							<i className="fa fa-th-list fa-2x menu-icon" onClick={this.showMenu}></i>	
-							<Link className= "nav-link top-title" to="/#projects"><b><Translate id="navbar.projects"/></b></Link>
+							<Link className= "nav-link top-title" to="#projects"><b><Translate id="navbar.projects"/></b></Link>
 				   		</li>
 				   		</div>
 				   		 {
@@ -103,11 +100,8 @@ class Navbar extends Component {
 				            ? (
 				           <div className="menu-container">
 					   		<li className="nav-item top-div second-item">
-								<Link className= "nav-link top-title" to="/#TimeLine"><b><Translate id="navbar.aboutMe"/></b></Link>
+								<Link className= "nav-link top-title" to="#TimeLine"><b><Translate id="navbar.aboutMe"/></b></Link>
 					   		</li>
-					   		<li className="nav-item top-div">
-								<Link className= "nav-link top-title" to="/blog"><b><Translate id="navbar.blog"/></b></Link>
-				   			</li>
 				   		</div>
 				   		    )
 			            : (
