@@ -44,11 +44,23 @@
   	}
   },
   "timeline":{
+    "teacher": {
+      "title": ["Teacher", "Intervenant"],
+      "place": ["ISEP, Paris", "ISEP, Paris"],
+      "resume": ["Provide Linux basics and software architecture courses.", "Enseignement des modules base en linux et architecture logicielle."],
+      "date": ["January 2019 - Present", "Janvier 2019 - maintenant"]
+    },
+    "gitguardian": {
+      "title": ["Full stack developer", "Développeur full stack"],
+      "place": ["Git Guardian, Paris", "Gitguardian, Paris"],
+      "resume": ["Full stack developement around cybersecurity for source code solutions. ", "Développement de produit pour des solutions de protection du code source."],
+      "date": ["March 2019 - Present", "Mars 2019 - maintenant"]
+    },
     "cognitiveInge": {
       "title": ["Junior AI engineer", "Ingénieur IA Junior"],
       "place": ["Cognitive Matchbox, Paris", "Cognitive Matchbox, Paris", "Cognitive Matchbox, Paris"],
       "resume": ["Machine Learning, Front-end developpement, API management", "Machine Learning, développement Front, création d'API"],
-      "date": ["September 2018 - present", "Septembre 2018 - Aujourd'hui"]
+      "date": ["September 2018 - March 2019", "Septembre 2018 - Mars 2019"]
     },
     "deeplearning": {
       "title": ["Deep Learning Specialisation", "Spécialisation en deep learning"],

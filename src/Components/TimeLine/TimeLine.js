@@ -14,6 +14,30 @@ const timeline = () =>{
 	<VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
+    date={<Translate id="timeline.gitguardian.date"/>}
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon={<WorkIcon />}
+  >
+    <h3 className="vertical-timeline-element-title"><Translate id="timeline.gitguardian.title"/></h3>
+    <h4 className="vertical-timeline-element-subtitle"><Translate id="timeline.gitguardian.place"/></h4>
+    <p>
+    <Translate id="timeline.gitguardian.resume"/>
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date={<Translate id="timeline.teacher.date"/>}
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon={<WorkIcon />}
+  >
+    <h3 className="vertical-timeline-element-title"><Translate id="timeline.teacher.title"/></h3>
+    <h4 className="vertical-timeline-element-subtitle"><Translate id="timeline.teacher.place"/></h4>
+    <p>
+    <Translate id="timeline.teacher.resume"/>
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
     date={<Translate id="timeline.cognitiveInge.date"/>}
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<WorkIcon />}
