@@ -4,7 +4,6 @@ import { Translate } from "react-localize-redux";
 import { withLocalize } from "react-localize-redux";
 import LanguageSwapper from './LangageSwapper/LangageSwapper';
 import globalTranslations from "./../../translations/global.json";
-import { Link } from 'react-router-dom';
 import { renderToStaticMarkup } from "react-dom/server";
 
 class Navbar extends Component {
@@ -80,13 +79,10 @@ class Navbar extends Component {
 				<div className="laptop_navbar">
 					<ul className="nav justify-content-center"> 
 						<li className="nav-item top-div">	
-							<Link className= "nav-link top-title" to="/#projects"><b><Translate id="navbar.projects"/></b></Link>
+							<a className= "nav-link top-title" href="#projects"><b><Translate id="navbar.projects"/></b></a>
 				   		</li>
 				   		<li className="nav-item top-div">
-							<Link className= "nav-link top-title" to="/#TimeLine"><b><Translate id="navbar.aboutMe"/></b></Link>
-				   		</li>
-				   		<li className="nav-item top-div">
-							<Link className= "nav-link top-title" to="/blog"><b><Translate id="navbar.blog"/></b></Link>
+							<a className= "nav-link top-title" href="#TimeLine"><b><Translate id="navbar.aboutMe"/></b></a>
 				   		</li>
 					</ul>
 				</div>
@@ -95,7 +91,7 @@ class Navbar extends Component {
 						<div>
 						<li className="nav-item top-div">
 							<i className="fa fa-th-list fa-2x menu-icon" onClick={this.showMenu}></i>	
-							<Link className= "nav-link top-title" to="/#projects"><b><Translate id="navbar.projects"/></b></Link>
+							<a className= "nav-link top-title" href="#projects"><b><Translate id="navbar.projects"/></b></a>
 				   		</li>
 				   		</div>
 				   		 {
@@ -103,11 +99,8 @@ class Navbar extends Component {
 				            ? (
 				           <div className="menu-container">
 					   		<li className="nav-item top-div second-item">
-								<Link className= "nav-link top-title" to="/#TimeLine"><b><Translate id="navbar.aboutMe"/></b></Link>
+								<a className= "nav-link top-title" href="#TimeLine"><b><Translate id="navbar.aboutMe"/></b></a>
 					   		</li>
-					   		<li className="nav-item top-div">
-								<Link className= "nav-link top-title" to="/blog"><b><Translate id="navbar.blog"/></b></Link>
-				   			</li>
 				   		</div>
 				   		    )
 			            : (
